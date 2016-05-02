@@ -59,12 +59,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* Colors */
 /* Global CSS */
 html, body {
+  height: 100%;
   overflow-x: hidden;
 }
 
 header {
   line-height: 2.5em;
-  margin: 2em auto;
+  margin: 4em auto 2em;
   text-align: center;
 }
 header h1 {
@@ -81,6 +82,10 @@ header p {
 
 footer {
   font-family: "Josefin Sans", "Lato", sans-serif;
+  font-size: 1.1em;
+  margin: 0 auto;
+  padding: 1.5em;
+  text-align: center;
 }
 
 main {
@@ -89,9 +94,16 @@ main {
   line-height: 1.6em;
   color: rgba(0, 0, 0, 0.7);
   margin: 0 auto;
+  /* section */
 }
 main section {
-  margin: 1em;
+  margin: 1.5em;
+  /* h2 */
+}
+main section h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-transform: uppercase;
 }
 
 nav {
@@ -125,5 +137,8 @@ nav a:visited {
 
 /* Special Styles */
 .container {
+  height: 100%;
+  min-height: 100%;
+  /* this helps push the footer to the bottom */
   width: 80%;
 }
