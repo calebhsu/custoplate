@@ -9,7 +9,7 @@ header {
   text-align: center;
   
   h1 {
-    font-family: $font-header;
+    font-family: $font-theme;
     font-size: 3em;
     letter-spacing: 0.08em;
   }
@@ -21,11 +21,26 @@ header {
   }
 }
 
+footer {
+  font-family: $font-theme;
+}
+
+main {
+  font-family: $font-body;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: $black;
+  margin: 0 auto;
+  section {
+    margin: 1em;
+  }
+}
+
 nav {
   color: $black;
   font-family: $font-body;
   font-size: 1.2em;
-  margin: 1em;
+  margin: 1em 1em 2em;
   text-align: center;
   text-transform: uppercase;
 
@@ -54,4 +69,3 @@ nav {
 .container {
   width: 80%;
 }
-

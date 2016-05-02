@@ -79,11 +79,26 @@ header p {
   text-transform: lowercase;
 }
 
+footer {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+}
+
+main {
+  font-family: "Montserrat", "Open Sans", "Corbel", sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+}
+main section {
+  margin: 1em;
+}
+
 nav {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   font-family: "Montserrat", "Open Sans", "Corbel", sans-serif;
   font-size: 1.2em;
-  margin: 1em;
+  margin: 1em 1em 2em;
   text-align: center;
   text-transform: uppercase;
 }
