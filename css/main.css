@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Monserrat|Lato|Corbel|Century|Josefin+Sans|La+Belle+Aurore);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Monserrat|Lato|Corbel|Century|Josefin+Sans|Josefin+Slab|La+Belle+Aurore);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,4 +53,62 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* Fonts */
+/* Colors */
+/* Global CSS */
+html, body {
+  overflow-x: hidden;
+}
+
+header {
+  line-height: 2.5em;
+  margin: 2em auto;
+  text-align: center;
+}
+header h1 {
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.08em;
+}
+header p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Century", "Josefin Slab", Garamond, serif;
+  font-size: 1.4em;
+  text-transform: lowercase;
+}
+
+nav {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Montserrat", "Open Sans", "Corbel", sans-serif;
+  font-size: 1.2em;
+  margin: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav li {
+  display: inline;
+  padding: 0.8em;
+}
+nav a {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+nav a:hover {
+  letter-spacing: 0.2em;
+}
+nav a:visited {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Special Styles */
+.container {
+  width: 80%;
 }
