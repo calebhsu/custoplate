@@ -1,6 +1,7 @@
 # Caleb's Boilerplate
 
-WEB Front-End Dev: Custom Boilerplate (Ongoing)
+Front-End Web Development, Spring 2016 [ATLS 4519-101]
 
-### About
-A custom boilerplate for [ATLS 4519-101] Front-End Web Development.
+### Purpose
+A simple custom boilerplate site using Sass & Compass mixins. <br/>
+[Live Preview](http://creative.colorado.edu/~chhs9974/dev/dev-boilerplate/)
